@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto.eot'); /* IE9 Compat Modes */
+    src: url('roboto.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('roboto.woff') format('woff'), /* Modern Browsers */
+    url('roboto.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('roboto.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  
+/*محمدرضا*/
+
+.font{
+    font-family: 'Roboto';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
+
+.imageBottom{
+    margin: -30px 80px 70px;
+}
+.image1{
+    margin: -50px 0 0 0;
+}
+@media screen and (max-width:760px) {
+    .image1{
+    margin-top: 60px;
+    }
+    .imageBottom{
+    margin-top: -15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    .rm1{
+    margin-top: 20px;
+    }
+    .Brand{
+    width: 70%;
+    }
+}
+@media screen and (min-width:760px){
+    .readmore1{
+    margin-top: 0px;
+    }
+    .rm1{
+    margin: -80px 0 0 0;
+}
+}
+.titleFont{
+    font-family: 'Roboto Slab', serif;
+}
+.linkMore{
+    color: black;
+}
+.linkMore:hover{
+    text-decoration: none;
+}
+.u-image{
+    object-fit: cover;
+    height: 697px;
+}
+/*محمدرضا*/
+/*زهرا*/
+
+
+/*زهرا*/
+/*مهسا*/
+.m-row{
+    margin: 0px;
+}
+
+.background-pic1{
+    background-image: url(image/pic\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+.size-font{
+    font-size: 15px;
+}
+
+.size-font-h{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn-end{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    border-radius:0px ;
+}
+
+.a-read{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.945);
+    white-space: nowrap;
+}
+
+.a-read:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945); ;
+}
+
+.bg-footer{
+background-color: #333333;
+text-align: center;
+font-size: 12px;
+}
+/*مهسا*/
+
+   
+
