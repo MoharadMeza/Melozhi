@@ -10,6 +10,12 @@
   body{
       font-family:'Roboto';
   }
+
+  .width-Photo-Collection{
+      width: 100%;
+      height: auto;
+      
+  }
 .fontsize-Brand-Creation{
     font-size: 15px;
 }
