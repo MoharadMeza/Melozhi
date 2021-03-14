@@ -10,6 +10,60 @@
   body{
       font-family:'Roboto';
   }
+
+.Agancy-brand{
+    margin-top: 3rem;
+}
+.first-line{
+    height: .8rem;
+    width: 150px;
+    background-color: #333333;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    padding: 0;
+}
+.first-text{
+    background-color: #7f44c0;
+}
+.readmore-bottom , .third-readm{
+    background-color: #7f44c0;
+}
+.coffee-img{
+    max-width: 100%;
+    height: 597px;
+    object-fit: cover;
+}
+.teamwork{
+    background-color: #f2f2f2;
+}
+.company-slogan{
+    margin-top: -60px;
+}
+.happy-girl{
+    height: 697px; width: 100%;
+    object-fit: cover;
+}
+@media only screen and (min-width:760px){
+    .teamwork{
+        margin-top: -50px;
+    }
+}
+.b-text:hover{
+    text-decoration: none;
+}
+.w-text:hover{
+    text-decoration: none;
+}
+.w-readm{
+    width: 90px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
 .fontsize-Brand-Creation{
     font-size: 15px;
 }
