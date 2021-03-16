@@ -11,105 +11,43 @@
       font-family:'Roboto';
   }
 
-.Agancy-brand{
-    margin-top: 3rem;
+
+/*z*/
+.center_gallery_left{
+    height: 525px;
+    width: 100%;
 }
-.first-line{
-    height: .8rem;
-    width: 150px;
-    background-color: #333333;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    padding: 0;
+.center_gallery_right{
+    width:100% ;
+    height:250px;
 }
-.first-text{
+.center_gallery_purple
+{
     background-color: #7f44c0;
+    height: 250px;
 }
-.readmore-bottom , .third-readm{
-    background-color: #7f44c0;
+.btn_read_size{
+    width: 22%;
 }
-.coffee-img{
-    max-width: 100%;
+.card_center{
+    background-color:#f2f2f2;
+}
+.card_center_top{
+    background-color: #f2f2f2;
+    padding:30px 90px ;
+}
+.card_center_image_left{
+    width:100%;
+    object-fit: cover;
+}
+.card_center_image_right{
+    width: 100%;
     height: 597px;
     object-fit: cover;
 }
-.teamwork{
-    background-color: #f2f2f2;
-}
-.company-slogan{
-    margin-top: -60px;
-}
-.happy-girl{
-    height: 697px; width: 100%;
-    object-fit: cover;
-}
-@media only screen and (min-width:760px){
-    .teamwork{
-        margin-top: -50px;
-    }
-}
-.b-text:hover{
-    text-decoration: none;
-}
-.w-text:hover{
-    text-decoration: none;
-}
-.w-readm{
-    width: 90px;
-    margin-left: 20px;
-}
-
-
-
-
-
-
-.fontsize-Brand-Creation{
-    font-size: 15px;
-}
-
-.fontsize-icon-Brand-Creation{
-    font-size: 17px;
-    font-weight: bold;
-}
-
-.bg-color-about-Brand{
+.btn_read_card{
+  
     background-color: #7f44c0;
- }
- .Color-Description-about-Brand{
-    color: rgba(255, 255, 255, 0.945);
- }
-.btn-about-Brand{
-    background-color: white;
-    border-radius:0px ;
+ width: 22%;
 }
-@media (min-width: 575.98px) and (max-width: 1199.98px){ 
-    .btn-about-Brand{
-        width: 50%;
-    }
- }
- @media (min-width: 1200px){ 
-    .btn-about-Brand{
-        width: 35%;
-    }
- }
-
-.readmore-about-Brand{
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.945);
-    white-space: nowrap;
-}
-
-.readmore-about-Brand:hover{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.945); ;
-}
-
-.bg-footer{
-background-color: #333333;
-text-align: center;
-font-size: 12px;
-}
-.color-footer{
-    color: #ffb2bf;
-}
+/*z*/
