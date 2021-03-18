@@ -40,7 +40,8 @@
     margin-top: -60px;
 }
 .happy-girl{
-    height: 697px; width: 100%;
+    height: 697px;
+    width: 100%;
     object-fit: cover;
 }
 @media only screen and (min-width:760px){
