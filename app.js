@@ -9,7 +9,7 @@ function statusFunc(response) {
 function json(response) {
     return response.blob();
 }
-window.onload = async () => {
+window.onload = () => {
     const image = document.getElementById("image");
 
     for (let i = 0; i < 3 ; i++) {

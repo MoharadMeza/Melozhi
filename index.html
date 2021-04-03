@@ -8,6 +8,7 @@
     <link href="style.css" rel="stylesheet" />
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="./app.js"></script>
 
     <title>Modified project</title>
 </head>
@@ -240,38 +241,7 @@
         </div>
     </footer>
 
-    <script>
 
-        for (let i = 0; i < 3; i++) {
-            w = document.getElementsByClassName("load-image")[i].width;
-            h = document.getElementsByClassName("load-image")[i].height;
-            fetch(`http://placekitten.com/g/${w}/${h}`)
-                .then((response) => {
-                    let x = document.createElement("IMG");
-                    let imgClass = document.getElementsByClassName("images")[i];
-                    x.setAttribute("src", response.url);
-                    console.log(response.url);
-                    x.setAttribute("width", "w");
-                    x.setAttribute("height", "h");
-                    if(i === 0){
-                        x.setAttribute("class", "happy-girl new-img");
-                    }
-                    if(i === 1){
-                        x.setAttribute("class", "w-100 mb-5 new-img");
-                    }
-                    if(i === 2){
-                        x.setAttribute("class", "coffee-img mt-5");
-                    }
-                    imgClass.appendChild(x);
-                    imgClass.removeChild(imgClass.firstChild);
-                    console.log(i);
-                })
-                .catch((error) => {
-                    console.log("Failed Load Image!")
-                })
-        }
-        
-    </script>
 
 </body>
 
